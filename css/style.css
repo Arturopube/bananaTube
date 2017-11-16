@@ -3,15 +3,7 @@
     margin: 0 auto;
 }
 
-.videoblock{
-    width: 50%;
-    float: left;
-}
 
-
-.videoblock video {
-    max-width: 100%;
-}
 
 body {
     background-color: darkkhaki;
@@ -42,3 +34,142 @@ body {
     text-align: center;
 }
 
+
+.house {
+    margin-left: 46%;
+    margin-right: 46%;
+    width: 8%;
+    
+}
+
+
+
+
+.lupa {
+    width: 50%;
+    float: left;
+    
+}
+
+.lupa img {
+    float: left;
+    width: 15%;
+    margin-left: 85%;
+}
+
+
+.searcher_bar {
+    width: 50%;
+    float: left;
+}
+.searcher_bar img {
+    float: left;
+    width: 45%;
+   
+}
+
+
+
+.video_general {
+    float: left;
+    width: 100%;
+}
+
+.fila1 {
+    float: left;
+    width: 100%;
+}
+
+.fila2 {
+float: left;
+    width: 100%;    
+}
+
+.columna {
+    float: left;
+    width: 40%;
+    padding:  5% 5%;
+   
+}
+
+.video video {
+    float: left;
+    width: 100%;
+    
+   
+}
+
+.video videotext {
+    float: left;
+    width: 100%;
+   
+}
+
+.videotext {
+    float: left;
+    width: 100%;
+}
+
+.comments {
+    float: left;
+    width: 100%;
+}
+
+.fotoname {
+    float: left;
+    width: 30%;
+}
+
+
+.foto {
+    float: left;
+    width: 100%;
+    
+}
+
+.name{
+    float: left;
+    width: 100%;
+    
+}
+.text {
+    float: left;
+    width: 70%;
+}
+
+.text p {
+    float: left;
+    width: 100%;
+}
+.coment {
+    float: left;
+    width: 100%;
+}
+
+.inicialcoment {
+    float: left;
+    width: 100%
+}
+.footer {
+    float: left;
+    width: 100%;
+}
+
+.footer_right img {
+    float: left;
+    width: 42px;
+   
+  
+}
+.footer_left {
+    width: 70%;
+    float: left;
+    padding-top: 18px;
+   
+}
+
+.footer_right {
+   margin-left: 15%;
+    float: left;
+    width: 15%;
+}
