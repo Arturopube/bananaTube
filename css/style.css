@@ -173,3 +173,116 @@ float: left;
     float: left;
     width: 15%;
 }
+
+
+
+
+
+
+.index {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.general_profile {
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.profile {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 41px;
+    
+   
+}
+
+.profile h2 {
+    float: left;
+    width: 90%;
+    margin-left: 40%;
+}
+
+.profile_link {
+    float: left;
+    width: 50%;
+}
+
+.profile_link img{
+    float: left;
+    width: 30%;
+}
+
+.general_wall {
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.wall {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 41px;
+}
+.wall h2 {
+    float: left;
+    width: 90%;
+    margin-left: 40%;
+     }
+.wall_link {
+    float: left;
+    width: 50%;
+    
+}
+
+.wall_link img {
+    float: left;
+    width: 30%;
+}
+
+.general_management {
+    float: left;
+    width: 100%;
+    
+}
+
+.management {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 41px;
+}
+
+.management h2 {
+    float: left;
+    width: 90%;
+    margin-left: 28%;
+}
+
+.management_link {
+     float: left;
+    width: 50%;
+    
+}
+
+.management_link img {
+     float: left;
+    width: 30%;
+}
+
+.banana_logo {
+    float: left;
+    width: 100%;
+}
+
+.banana_logo img {
+    float: left;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
