@@ -286,3 +286,113 @@ float: left;
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+/*cambiarlo entero*/
+
+.index {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.general_videoteca {
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.videoteca {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 41px;
+    
+   
+}
+
+.videoteca h2 {
+    float: left;
+    width: 90%;
+    margin-left: 40%;
+}
+
+.videoteca_link {
+    float: left;
+    width: 50%;
+}
+
+.profile_link img{
+    float: left;
+    width: 30%;
+}
+
+.general_videoedit {
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.videoedit {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 41px;
+}
+.videoedit h2 {
+    float: left;
+    width: 90%;
+    margin-left: 40%;
+     }
+.videoedit_link {
+    float: left;
+    width: 50%;
+    
+}
+
+.videoedit_link img {
+    float: left;
+    width: 30%;
+}
+
+.general_factory {
+    float: left;
+    width: 100%;
+    
+}
+
+.factory {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 41px;
+}
+
+.factory h2 {
+    float: left;
+    width: 90%;
+    margin-left: 28%;
+}
+
+.factory_link {
+     float: left;
+    width: 50%;
+    
+}
+
+.factory_link img {
+     float: left;
+    width: 30%;
+}
+
+.banana_logo {
+    float: left;
+    width: 100%;
+}
+
+.banana_logo img {
+    float: left;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

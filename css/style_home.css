@@ -1,0 +1,27 @@
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: darkkhaki;
+}
+
+.header {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.index {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+
