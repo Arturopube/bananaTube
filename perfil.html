@@ -3,17 +3,30 @@
 <head>
     <meta charset="UTF-8" />
     <title>BananaTube</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
   
 <!--  header -->
-   <div><h1>BananaTube</h1></div>
+   <div class="wrapper">
+      <div class="header">
+           <h1>BananaTube</h1>
+      </div>
+   </div>
    
 <!--   perfil -->
-   <div><h2>Perfil</h2></div>
+   <div class="wrapper">
+       <div class="title">
+           <h2>Perfil</h2>
+       </div>
+   </div>
    
 <!--   foto perfil -->
-   <div><img width="700" src="image/foto_paisaje.jpg" alt="Imagen fondo perfil"></div>
+   <div class="wrapper">
+        <div class="photo_profile"> 
+               <img  src="image/foto_paisaje.jpg" alt="Imagen fondo perfil">
+        </div>
+   </div>
    
 <!--   foto usuario y nombre -->
    <div>
@@ -22,10 +35,15 @@
    </div>
    
 <!--   mis datos personales -->
+<div class="wrapper">
    <div>
-       <div><p>Mis datos personales</p></div>
-       <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ab voluptatibus itaque dignissimos provident soluta, nisi, animi eveniet doloremque nam facere odio corporis ratione quaerat, porro rerum tempora sequi aliquam!</p></div>
-   </div>
+           <div>
+               <p>Mis datos personales</p>
+           </div>
+           <div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ab voluptatibus itaque dignissimos provident soluta, nisi, animi eveniet doloremque nam facere odio corporis ratione quaerat, porro rerum tempora sequi aliquam!</p>         </div>
+    </div>
+</div>
    
 <!--   editar datos -->
    <div>
@@ -37,7 +55,7 @@
 <div><a href="home.html"><img width="150" src="image/LOGO_VOLVER_HOME.png" alt="Boton volver a inicio"></a></div>   
 
 <!--   footer -->
-   <div>
+   <div class="wrapper">
        <div>
             <span>&copy; Bananatube.corp</span>
             <a href="">privacidad</a>
