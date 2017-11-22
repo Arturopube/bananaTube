@@ -1,0 +1,69 @@
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+   background-color: plum;
+}
+
+.box {
+    width: 100%;
+    float: left;
+}
+
+
+.boton {
+    width: 50%;
+    float: left;
+}
+
+.boton img {
+    width: 25%;
+    float: left;
+    margin-left: 50%;
+}
+
+.image img {
+    width: 50%;
+    float: left;
+}
+.image {
+    width: 50%;
+    float: left;
+}
+
+#boton1:hover + #carrot img {
+    transform: rotate( 360deg );
+    transform-origin: center;
+   
+}
+
+#carrot img {
+   transition: transform 5s;
+}
+
+#boton2:hover + #abocado {
+    transform: scale(2);   
+}
+
+#abocado {
+   transition: transform 10s;
+}
+
+#boton3:hover + #cheese {
+    transform: translate(60px, 60px);   
+}
+
+#cheese {
+   transition: transform 10s;
+}
+
+#boton4 img:hover + #apple {
+    transform: scale(0.5);
+}
+
+#apple {
+   transition: transform 5s;
+}
+
+.boton {
+    padding-top: 60px;
+}
