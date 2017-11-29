@@ -5,13 +5,142 @@
 
 .header {
     background-color: rgb(115, 175, 131);
+    width: 100%;
+    float: left;
 }
 
+.logo {
+    float: left;
+    width: 30%;
+}
 
+.titulo {
+    float: left;
+    width: 30%;
+}
+.menu {
+    float: left;
+    width: 30%;
+}
 
+.logo img {
+    max-width: 60%;
+}
+.titulo h1 {
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+    margin-left: 10%;
+}
 
+.menu img {
+    max-width: 20%;
+    margin-left: 80%;
+    transition: scale 2s;
+}
 
+.desplegable  {
+    list-style: none;
+    padding-bottom: 3px;
+    width: 83%;
+    visibility: hidden;
+    
+}
+.settings {
+    background-color:rgb(151, 163, 98);
+     height: 33px;
+    text-align: center;
+}
 
+.blog {
+    background-color:rgb(182, 199, 107);
+     height: 33px;
+        text-align: center;
+}
+.exit {
+    height: 33px;
+    background-color:rgb(200, 211, 154);
+        text-align: center;
+}
 
+.menu img:hover {
+    transform: scale(1.2);
+}
+.menu img:active + ul {
+    visibility: visible;
+}
 
+/*------------*/
+.title_anim h1 {
+    width: 100%;
+    text-align: center;
+    padding-top: 300px;
+  
+}
+.animation1  {
+    width: 100%;
+    float: left;
+}
+#db-bg {
+    background-image: url(../img/fondo_universo.jpg);
+    background-size:100%;
+    background-position: center;
+    background-attachment: fixed;
+    height: 600px;
+    position: relative;
 
+}
+
+.plato img {
+    width: 30%;
+   position:absolute;
+    left: 35%;
+    top: 200px;
+    
+}
+.orange img {
+   position: absolute;
+    width: 10%;
+    left: 15%;
+    top: 180px;
+    animation: movimiento 10s;
+   
+}
+
+@keyframes movimiento {
+    0% {
+        width: 10%;
+        left: 15%;
+    top: 180px;
+    
+    }
+    25% {
+        width: 10%;
+        left: 50%;
+    top: 250px;
+        transform: rotateZ(90deg);
+     
+        
+    }
+    50% {
+        width: 10%;
+        left: 85%;
+    top: 180px;
+        transform: rotateZ(90deg);
+        
+    }
+    75% {
+           width: 10%;
+        left: 50%;
+    top: 150px;
+        transform: rotateZ(90deg);
+      
+       
+    }
+    100% {
+         width: 10%;
+        left: 15%;
+    top: 180px;
+        
+    }
+}
